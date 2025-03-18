@@ -1,0 +1,10 @@
+site_name: Monday Night Bytes
+nav:
+  - Home: index.md
+  - Contact: contact.md
+  - Links: links.md
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
