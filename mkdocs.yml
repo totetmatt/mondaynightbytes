@@ -12,6 +12,8 @@ theme:
 
 extra_css:
   - assets/css/neoteroi-timeline.css
+  - assets/css/neoteroi-cards.css
 
 markdown_extensions:
   - neoteroi.timeline
+  - neoteroi.cards
