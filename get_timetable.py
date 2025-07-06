@@ -23,6 +23,6 @@ if __name__ == "__main__":
     timetable = [format_timeline_json_output(event) for event in events]
 
     json.dump(timetable,open("docs/timetable.json","w"))
-
-    next_event = events[0]
-    json.dump([format_cards_json_output(next_event)],open("docs/next_event.json","w"))
+    if events:
+        next_event = events[0]
+        json.dump([format_cards_json_output(next_event)],open("docs/next_event.json","w"))
